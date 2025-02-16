@@ -1,0 +1,83 @@
+# Exercise 1: Bank Account
+class BankAccount:
+    def __init__(self, account_holder, balance=0):
+        self.account_holder = account_holder
+        self.balance = balance
+
+    def deposit(self, amount):
+        """Complete this method to add 'amount' to the balance"""
+        pass
+
+    def withdraw(self, amount):
+        """Complete this method to subtract 'amount' from the balance if sufficient funds exist"""
+        pass
+
+    def get_balance(self):
+        """Complete this method to return the current balance"""
+        pass
+
+
+# Exercise 2: Rectangle
+class Rectangle:
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
+
+    def area(self):
+        """Complete this method to return the area of the rectangle"""
+        pass
+
+    def perimeter(self):
+        """Complete this method to return the perimeter of the rectangle"""
+        pass
+
+
+# Exercise 3: Student
+class Student:
+    def __init__(self, name, student_id):
+        self.name = name
+        self.student_id = student_id
+        self.grades = []
+
+    def add_grade(self, grade):
+        """Complete this method to add a grade to the grades list"""
+        pass
+
+    def average_grade(self):
+        """Complete this method to return the average of all grades"""
+        pass
+
+
+# Exercise 4: Car
+class Car:
+    def __init__(self, make, model, fuel_level=100):
+        self.make = make
+        self.model = model
+        self.fuel_level = fuel_level
+
+    def drive(self, distance):
+        """Complete this method to decrease the fuel level based on distance driven"""
+        pass
+
+    def refuel(self, amount):
+        """Complete this method to add fuel to the tank, ensuring it does not exceed 100"""
+        pass
+
+
+# Exercise 5: ShoppingCart
+class ShoppingCart:
+    def __init__(self):
+        self.items = {}
+
+    def add_item(self, item_name, price, quantity=1):
+        """Complete this method to add an item with its price and quantity to the cart"""
+        pass
+
+    def remove_item(self, item_name):
+        """Complete this method to remove an item from the cart if it exists"""
+        pass
+
+    def total_price(self):
+        """Complete this method to return the total price of all items in the cart"""
+        pass
+
